@@ -1,4 +1,4 @@
-import { isChormeStack, isFireFoxStack, parse, StackItem } from "./parser";
+import { isChormeStack, isFireFoxStack, parse, StackItem } from "../parser";
 
 describe("Stack parser", () => {
   it("should be Chrome stack", () => {
